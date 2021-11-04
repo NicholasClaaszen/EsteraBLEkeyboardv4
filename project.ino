@@ -14,8 +14,6 @@ bool activeListener = false;
 int count = 0;
 unsigned long hex_num;
 
-SoftwareSerial myPort;
-
 
 BleKeyboard bleKeyboard("BLE Terminal v4 B", "Estera", 100);
 
